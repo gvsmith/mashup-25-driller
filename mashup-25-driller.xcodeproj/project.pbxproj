@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D90CF6325890DD400D3FD0B /* mashup_25_drillerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D90CF6225890DD400D3FD0B /* mashup_25_drillerApp.swift */; };
+		8D90CF6525890DD400D3FD0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D90CF6425890DD400D3FD0B /* ContentView.swift */; };
+		8D90CF6725890DD500D3FD0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D90CF6625890DD500D3FD0B /* Assets.xcassets */; };
+		8D90CF6A25890DD500D3FD0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D90CF6925890DD500D3FD0B /* Preview Assets.xcassets */; };
+		8D90CF7525890DD600D3FD0B /* mashup_25_drillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D90CF7425890DD600D3FD0B /* mashup_25_drillerTests.swift */; };
+		8D90CF8025890DD600D3FD0B /* mashup_25_drillerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D90CF7F25890DD600D3FD0B /* mashup_25_drillerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D90CF7125890DD600D3FD0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D90CF5725890DD400D3FD0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D90CF5E25890DD400D3FD0B;
+			remoteInfo = "mashup-25-driller";
+		};
+		8D90CF7C25890DD600D3FD0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D90CF5725890DD400D3FD0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D90CF5E25890DD400D3FD0B;
+			remoteInfo = "mashup-25-driller";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D90CF5F25890DD400D3FD0B /* mashup-25-driller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mashup-25-driller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D90CF6225890DD400D3FD0B /* mashup_25_drillerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mashup_25_drillerApp.swift; sourceTree = "<group>"; };
+		8D90CF6425890DD400D3FD0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8D90CF6625890DD500D3FD0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D90CF6925890DD500D3FD0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D90CF6B25890DD500D3FD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D90CF7025890DD600D3FD0B /* mashup-25-drillerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mashup-25-drillerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D90CF7425890DD600D3FD0B /* mashup_25_drillerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mashup_25_drillerTests.swift; sourceTree = "<group>"; };
+		8D90CF7625890DD600D3FD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D90CF7B25890DD600D3FD0B /* mashup-25-drillerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mashup-25-drillerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D90CF7F25890DD600D3FD0B /* mashup_25_drillerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mashup_25_drillerUITests.swift; sourceTree = "<group>"; };
+		8D90CF8125890DD600D3FD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D90CF5C25890DD400D3FD0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D90CF6D25890DD600D3FD0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D90CF7825890DD600D3FD0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D90CF5625890DD400D3FD0B = {
+			isa = PBXGroup;
+			children = (
+				8D90CF6125890DD400D3FD0B /* mashup-25-driller */,
+				8D90CF7325890DD600D3FD0B /* mashup-25-drillerTests */,
+				8D90CF7E25890DD600D3FD0B /* mashup-25-drillerUITests */,
+				8D90CF6025890DD400D3FD0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D90CF6025890DD400D3FD0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D90CF5F25890DD400D3FD0B /* mashup-25-driller.app */,
+				8D90CF7025890DD600D3FD0B /* mashup-25-drillerTests.xctest */,
+				8D90CF7B25890DD600D3FD0B /* mashup-25-drillerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D90CF6125890DD400D3FD0B /* mashup-25-driller */ = {
+			isa = PBXGroup;
+			children = (
+				8D90CF6225890DD400D3FD0B /* mashup_25_drillerApp.swift */,
+				8D90CF6425890DD400D3FD0B /* ContentView.swift */,
+				8D90CF6625890DD500D3FD0B /* Assets.xcassets */,
+				8D90CF6B25890DD500D3FD0B /* Info.plist */,
+				8D90CF6825890DD500D3FD0B /* Preview Content */,
+			);
+			path = "mashup-25-driller";
+			sourceTree = "<group>";
+		};
+		8D90CF6825890DD500D3FD0B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8D90CF6925890DD500D3FD0B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8D90CF7325890DD600D3FD0B /* mashup-25-drillerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D90CF7425890DD600D3FD0B /* mashup_25_drillerTests.swift */,
+				8D90CF7625890DD600D3FD0B /* Info.plist */,
+			);
+			path = "mashup-25-drillerTests";
+			sourceTree = "<group>";
+		};
+		8D90CF7E25890DD600D3FD0B /* mashup-25-drillerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D90CF7F25890DD600D3FD0B /* mashup_25_drillerUITests.swift */,
+				8D90CF8125890DD600D3FD0B /* Info.plist */,
+			);
+			path = "mashup-25-drillerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D90CF5E25890DD400D3FD0B /* mashup-25-driller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D90CF8425890DD600D3FD0B /* Build configuration list for PBXNativeTarget "mashup-25-driller" */;
+			buildPhases = (
+				8D90CF5B25890DD400D3FD0B /* Sources */,
+				8D90CF5C25890DD400D3FD0B /* Frameworks */,
+				8D90CF5D25890DD400D3FD0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mashup-25-driller";
+			productName = "mashup-25-driller";
+			productReference = 8D90CF5F25890DD400D3FD0B /* mashup-25-driller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D90CF6F25890DD600D3FD0B /* mashup-25-drillerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D90CF8725890DD600D3FD0B /* Build configuration list for PBXNativeTarget "mashup-25-drillerTests" */;
+			buildPhases = (
+				8D90CF6C25890DD600D3FD0B /* Sources */,
+				8D90CF6D25890DD600D3FD0B /* Frameworks */,
+				8D90CF6E25890DD600D3FD0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D90CF7225890DD600D3FD0B /* PBXTargetDependency */,
+			);
+			name = "mashup-25-drillerTests";
+			productName = "mashup-25-drillerTests";
+			productReference = 8D90CF7025890DD600D3FD0B /* mashup-25-drillerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D90CF7A25890DD600D3FD0B /* mashup-25-drillerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D90CF8A25890DD600D3FD0B /* Build configuration list for PBXNativeTarget "mashup-25-drillerUITests" */;
+			buildPhases = (
+				8D90CF7725890DD600D3FD0B /* Sources */,
+				8D90CF7825890DD600D3FD0B /* Frameworks */,
+				8D90CF7925890DD600D3FD0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D90CF7D25890DD600D3FD0B /* PBXTargetDependency */,
+			);
+			name = "mashup-25-drillerUITests";
+			productName = "mashup-25-drillerUITests";
+			productReference = 8D90CF7B25890DD600D3FD0B /* mashup-25-drillerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D90CF5725890DD400D3FD0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					8D90CF5E25890DD400D3FD0B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					8D90CF6F25890DD600D3FD0B = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 8D90CF5E25890DD400D3FD0B;
+					};
+					8D90CF7A25890DD600D3FD0B = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 8D90CF5E25890DD400D3FD0B;
+					};
+				};
+			};
+			buildConfigurationList = 8D90CF5A25890DD400D3FD0B /* Build configuration list for PBXProject "mashup-25-driller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D90CF5625890DD400D3FD0B;
+			productRefGroup = 8D90CF6025890DD400D3FD0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D90CF5E25890DD400D3FD0B /* mashup-25-driller */,
+				8D90CF6F25890DD600D3FD0B /* mashup-25-drillerTests */,
+				8D90CF7A25890DD600D3FD0B /* mashup-25-drillerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D90CF5D25890DD400D3FD0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D90CF6A25890DD500D3FD0B /* Preview Assets.xcassets in Resources */,
+				8D90CF6725890DD500D3FD0B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D90CF6E25890DD600D3FD0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D90CF7925890DD600D3FD0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D90CF5B25890DD400D3FD0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D90CF6525890DD400D3FD0B /* ContentView.swift in Sources */,
+				8D90CF6325890DD400D3FD0B /* mashup_25_drillerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D90CF6C25890DD600D3FD0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D90CF7525890DD600D3FD0B /* mashup_25_drillerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D90CF7725890DD600D3FD0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D90CF8025890DD600D3FD0B /* mashup_25_drillerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D90CF7225890DD600D3FD0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D90CF5E25890DD400D3FD0B /* mashup-25-driller */;
+			targetProxy = 8D90CF7125890DD600D3FD0B /* PBXContainerItemProxy */;
+		};
+		8D90CF7D25890DD600D3FD0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D90CF5E25890DD400D3FD0B /* mashup-25-driller */;
+			targetProxy = 8D90CF7C25890DD600D3FD0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D90CF8225890DD600D3FD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D90CF8325890DD600D3FD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D90CF8525890DD600D3FD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"mashup-25-driller/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "mashup-25-driller/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deloitte-digital-uk.mashup-25-driller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D90CF8625890DD600D3FD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"mashup-25-driller/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "mashup-25-driller/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deloitte-digital-uk.mashup-25-driller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D90CF8825890DD600D3FD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mashup-25-drillerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deloitte-digital-uk.mashup-25-drillerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mashup-25-driller.app/mashup-25-driller";
+			};
+			name = Debug;
+		};
+		8D90CF8925890DD600D3FD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mashup-25-drillerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deloitte-digital-uk.mashup-25-drillerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mashup-25-driller.app/mashup-25-driller";
+			};
+			name = Release;
+		};
+		8D90CF8B25890DD600D3FD0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mashup-25-drillerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deloitte-digital-uk.mashup-25-drillerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mashup-25-driller";
+			};
+			name = Debug;
+		};
+		8D90CF8C25890DD600D3FD0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mashup-25-drillerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deloitte-digital-uk.mashup-25-drillerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mashup-25-driller";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D90CF5A25890DD400D3FD0B /* Build configuration list for PBXProject "mashup-25-driller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D90CF8225890DD600D3FD0B /* Debug */,
+				8D90CF8325890DD600D3FD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D90CF8425890DD600D3FD0B /* Build configuration list for PBXNativeTarget "mashup-25-driller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D90CF8525890DD600D3FD0B /* Debug */,
+				8D90CF8625890DD600D3FD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D90CF8725890DD600D3FD0B /* Build configuration list for PBXNativeTarget "mashup-25-drillerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D90CF8825890DD600D3FD0B /* Debug */,
+				8D90CF8925890DD600D3FD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D90CF8A25890DD600D3FD0B /* Build configuration list for PBXNativeTarget "mashup-25-drillerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D90CF8B25890DD600D3FD0B /* Debug */,
+				8D90CF8C25890DD600D3FD0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D90CF5725890DD400D3FD0B /* Project object */;
+}
